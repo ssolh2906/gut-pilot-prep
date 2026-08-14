@@ -8,5 +8,4 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.listen(PORT, () => {
   console.log(`client running at http://localhost:${PORT}`);
-  console.log(`testing`)
 });
