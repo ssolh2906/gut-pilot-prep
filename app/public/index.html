@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gut Pilot - Client</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <div class="card">
+      <h1>Gut Pilot Client</h1>
+      <p class="sub">Send a file and a message to the server to check the connection.</p>
+
+      <form id="test-form" novalidate>
+        <div class="field">
+          <label for="file-input">File</label>
+          <input id="file-input" name="file" type="file" />
+          <span id="file-name" class="file-name">No file selected</span>
+        </div>
+
+        <div class="field">
+          <label for="text-input">Message</label>
+          <input
+            id="text-input"
+            name="message"
+            type="text"
+            placeholder="e.g. hello server"
+            autocomplete="off"
+          />
+        </div>
+
+        <button id="submit-btn" type="submit">Send</button>
+      </form>
+
+      <div id="result" class="result" hidden></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
