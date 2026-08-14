@@ -220,3 +220,6 @@ __marimo__/
 # Node.js
 node_modules/
 npm-debug.log*
+
+# stub-server
+stub-server/

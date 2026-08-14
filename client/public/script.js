@@ -1,5 +1,5 @@
 // Swap this for the teammate's backend endpoint once it's ready.
-const API_URL = "http://localhost:5000/upload";
+const API_URL = "http://localhost:5050/upload";
 
 const form = document.getElementById("test-form");
 const fileInput = document.getElementById("file-input");
